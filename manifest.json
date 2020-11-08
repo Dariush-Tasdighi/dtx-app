@@ -1,6 +1,6 @@
 {
-  "name": "Client",
-  "short_name": "Client",
+  "name": "DTX",
+  "short_name": "DTX",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
