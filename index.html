@@ -58,38 +58,19 @@
 	</app>
 
 	<div id="blazor-error-ui">
-		An unhandled error has occurred.
-		<a href="" class="reload">Reload</a>
-		<!--<button type="button" class="btn btn-danger btn-sm" onclick="clear_cache()">Reload 1</button>
-		<button type="button" class="btn btn-danger btn-sm" onclick="window.location.reload(true)">Reload 2</button>
-		<button type="button" class="btn btn-danger btn-sm" onclick="forceSWupdate()">Reload 3</button>-->
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		در این صفحه خطایی رخ داده است!
+		<a href="" class="reload">بارگزاری مجدد صفحه</a>
 		<a class="dismiss">🗙</a>
 	</div>
 
 	<script src="_framework/blazor.webassembly.js"></script>
 	<script>navigator.serviceWorker.register('service-worker.js');</script>
-
-	<!--<script>
-		function clear_cache() {
-			if ('serviceWorker' in navigator) {
-				caches.keys().then(function (cacheNames) {
-					cacheNames.forEach(function (cacheName) {
-						caches.delete(cacheName);
-					});
-				});
-			}
-		}
-
-		function forceSWupdate() {
-			if ('serviceWorker' in navigator) {
-				navigator.serviceWorker.getRegistrations().then(function (registrations) {
-					for (let registration of registrations) {
-						registration.update()
-					}
-				})
-			}
-		}
-	</script>-->
+	<script src="js/update.js"></script>
 </body>
 
 </html>
