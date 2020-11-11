@@ -1,4 +1,10 @@
-﻿function clear_cache() {
+﻿function change_location(newLocation) {
+
+	window.location = newLocation
+
+}
+
+function clear_cache() {
 
 	if ('serviceWorker' in navigator) {
 

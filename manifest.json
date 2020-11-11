@@ -1,6 +1,6 @@
 {
-  "name": "DTX",
-  "short_name": "DTX",
+  "name": "DT APP",
+  "short_name": "DT APP",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
